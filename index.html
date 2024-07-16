@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .button{
+            color: red;
+            display: flex;
+            justify-content: end;
+            text-emphasis-color: white;
+    
+        }
+        .address{
+            display: flex;
+            justify-content: start;
+
+
+            
+        }
+        .name{
+            display: flex;
+            justify-content: start;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Job Application(Web)</h1>
+        <div class="name">
+            <table>
+                <tr>
+                    <td><label for="first name">First Name</label></td>
+                    <td><label for="last name">Last Name</label></td>
+                </tr>
+                
+                <tr>
+                    <td><input id="first name" placeholder="Enter First Name...." type="text"></td>
+                    <td><input id="last name" placeholder="Enter Last Name...." type="text"></td>
+                </tr>
+
+            </table>
+        </div>
+        
+        
+
+        
+        
+        
+        <br>
+        <div class="job">
+            <table>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><label for="joberole">Job Role</label></td>
+                </tr>
+                <tr>
+                    <td><input type="email" placeholder="Enter Email...." id="email"></td>
+                    <td><input type="radio">dsa
+                        
+                    </td>
+                    <td><td><input type="radio">web</td>
+
+                </tr>
+            </table>
+        </div>
+    
+        <br>
+        <label for="address">Enter Address</label>
+        <br>
+        <textarea name="address" id="address" cols="80px" rows="30px"></textarea>
+        
+        
+        <br>
+
+
+        <div class="address">
+            <table>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><label for="pincode">Pincode</label></td>
+                 
+
+
+                </tr>
+            
+            
+            
+                <tr>
+                    <td><input id="city" placeholder="Enter City..." type="text"></td>
+                    <td><input id="pincode" placeholder="Enter Pincode..." type="number"></td>
+                </tr>
+            </table>
+            
+            
+            
+            
+        </div>
+
+       
+
+        <br>
+        <div class="upload">
+            <table>
+                <tr>
+                    <td><label for="date">Start Date</label></td>
+                    <td><label for="upload">Upload Your CV</label></td>
+                </tr>
+                <tr>
+                    <td><input type="date" name="date" id="date"></td>
+                    <td><input type="file" name="file" id="upload"></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <br>
+        <div class="button">
+            <input value="Apply Now" type="button">
+
+
+        </div>
+            
+        
+
+        
+
+
+        
+    </div>
+    
+    
+</body>
+</html>
